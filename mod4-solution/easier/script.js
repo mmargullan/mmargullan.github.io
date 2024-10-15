@@ -42,6 +42,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
+console.log(helloSpeaker); // Should not be undefined
+console.log(byeSpeaker); // Should not be undefined
+
 for (var i = 0; i < names.length; i++) {
 
   // STEP 11: (NOTHING TO DO. ALREADY DONE FOR YOU)
